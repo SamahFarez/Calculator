@@ -1,0 +1,45 @@
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    background: linear-gradient( to left,  rgb(110, 212, 110), rgb(255, 207, 117),rgb(255, 207, 117) );
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: rgb(83, 83, 83);
+    color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+}
+
+.textview {
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: rgb(82, 82, 82);
+    border-radius: 5px;
+    border: 0.5px solid grey;
+
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
